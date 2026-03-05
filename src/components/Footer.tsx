@@ -17,8 +17,15 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-dark-700 mt-8 pt-8 text-center text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} Viral App Brewery. Singapore.
+        <div className="border-t border-dark-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-500">
+            <a href="/terms" className="hover:text-white transition">Terms of Use</a>
+            <a href="/privacy-policy" className="hover:text-white transition">Privacy Policy</a>
+            <a href="/support" className="hover:text-white transition">Support</a>
+          </div>
+          <div className="text-gray-500 text-sm">
+            &copy; {new Date().getFullYear()} Viral App Brewery. Singapore.
+          </div>
         </div>
       </div>
     </footer>

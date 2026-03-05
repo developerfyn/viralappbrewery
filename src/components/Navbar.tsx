@@ -15,12 +15,24 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <Link href="#services" className="text-gray-300 hover:text-white transition">
               Services
             </Link>
             <Link href="#portfolio" className="text-gray-300 hover:text-white transition">
               Portfolio
+            </Link>
+            <Link href="/contact" className="text-gray-300 hover:text-white transition">
+              Contact
+            </Link>
+            <Link href="/terms" className="text-gray-300 hover:text-white transition">
+              Terms
+            </Link>
+            <Link href="/privacy-policy" className="text-gray-300 hover:text-white transition">
+              Privacy
+            </Link>
+            <Link href="/support" className="text-gray-300 hover:text-white transition">
+              Support
             </Link>
             <Link
               href="#contact"
@@ -53,6 +65,18 @@ export default function Navbar() {
             </Link>
             <Link href="#portfolio" className="block py-2 text-gray-300 hover:text-white">
               Portfolio
+            </Link>
+            <Link href="/contact" className="block py-2 text-gray-300 hover:text-white">
+              Contact
+            </Link>
+            <Link href="/terms" className="block py-2 text-gray-300 hover:text-white">
+              Terms
+            </Link>
+            <Link href="/privacy-policy" className="block py-2 text-gray-300 hover:text-white">
+              Privacy
+            </Link>
+            <Link href="/support" className="block py-2 text-gray-300 hover:text-white">
+              Support
             </Link>
             <Link href="#contact" className="block py-2 text-primary">
               Get a Quote
